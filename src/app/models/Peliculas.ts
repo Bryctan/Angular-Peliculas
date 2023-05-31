@@ -1,6 +1,6 @@
 let peliculas_stock = [
     {
-        id:1, name: 'Viernes 13', url: 'https://larepublica.cronosmedia.glr.pe/original/2022/05/12/627d81390bc57d7c54283798.jpg',year: 1980,director:'Sean S. Cunningham',taquilla:'T11', seccion: 1, sipnosis:'Un grupo de jóvenes visita el desahuciado campamento de Crystal Lake, donde tuvieron lugar varios monstruosos asesinatos hace más de dos décadas. Allí son brutalmente atacados por Jason, el temido asesino.'
+        id:1, name: 'Viernes 13', url: 'https://larepublica.cronosmedia.glr.pe/original/2022/05/12/627d81390bc57d7c54283798.jpg',year: 1980,director:'Sean S. Cunningham',taquilla:'T11', idseccion: 1, sipnosis:'Un grupo de jóvenes visita el desahuciado campamento de Crystal Lake, donde tuvieron lugar varios monstruosos asesinatos hace más de dos décadas. Allí son brutalmente atacados por Jason, el temido asesino.'
     },
     {
         id: 2, name: 'Saw', url: 'https://www.ecured.cu/images/5/5f/Sawp.JPG',year: 2004,director:'James Wan',taquilla:'T20', idseccion: 1, sipnosis: 'Adam y Lawrence se despiertan encadenados en un sucio baño con un cadáver entre ellos. Su secuestrador es un loco conocido como Jigsaw cuyo juego consiste en forzar a sus cautivos a herirse a si mismos o a otros con tal de permanecer vivos.'
