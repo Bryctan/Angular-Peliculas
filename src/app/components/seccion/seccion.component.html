@@ -1,0 +1,9 @@
+<div class="contenedor">
+    <div *ngFor="let seccion of secciones">
+        <div class="seccion">
+            <h1>{{seccion.name}}</h1>
+            <img [src]="seccion.url">
+            <button class="button" (click)="entrar(seccion.idsec)">ENTRAR</button>
+        </div>
+    </div>
+</div>

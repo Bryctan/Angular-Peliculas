@@ -1,0 +1,12 @@
+<div class="div-main">
+    <h1 class="titulo">{{nombre}}</h1>
+    <div class="contenedor">
+        <div *ngFor="let pelicula of filtro">
+            <div class="pelicula">
+                <p>{{ pelicula.name }}</p>
+                <img [src]="pelicula.url">
+                <button class="verdetalle" (click)="verdetalle(pelicula.id)">VER DETALLE</button>
+            </div>
+        </div>
+    </div>
+</div>
